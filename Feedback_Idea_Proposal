@@ -1,0 +1,13 @@
+Thank you for the effort and attention you’ve put into this proposal — addressing counterfeit drugs is a critical and often underexplored area of public health that directly supports SDG 3 and SDG 9. The combination of visual and textual data for counterfeit detection is a strong and thoughtful design choice, and your emphasis on accessibility and low-cost deployment shows real consideration for scalability and real-world use. It’s also great to see references to both spectroscopy and blockchain approaches in the literature review, suggesting that the team has explored multiple angles.
+
+To make the project more novel and impactful, consider expanding the solution beyond visual features by incorporating chemical fingerprint datasets (e.g., spectral signatures, active ingredient concentration ranges) through open chemical analysis libraries or databases like DrugBank or PubChem. Additionally, you could explore using multimodal learning techniques to combine image, OCR, and potential geolocation data (e.g., packaging origin or distribution points) to improve counterfeit detection accuracy in real-time field conditions. Another promising direction could be incorporating blockchain-based verification APIs or simulating drug supply chains with traceability features. For training data, you could supplement with datasets such as:
+
+    PharmGKB Visual & Label Databases
+
+    GS1 Digital Link and Open Standards
+
+    MedPix® Image Database (U.S. National Library of Medicine)
+
+    Custom datasets generated via GAN-based augmentation to simulate realistic counterfeit scenarios.
+
+By integrating more diverse data types and thinking systemically about the drug lifecycle, this project can move from detection toward full-chain validation — significantly increasing its impact.
